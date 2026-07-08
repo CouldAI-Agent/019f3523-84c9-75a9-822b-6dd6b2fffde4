@@ -21,8 +21,8 @@ class UniversityManagementApp extends StatelessWidget {
       initialRoute: '/',
       routes: {
         '/': (context) => const LoginScreen(),
-        '/student_dashboard': (context) => const StudentDashboard(),
-        '/teacher_dashboard': (context) => const TeacherDashboard(),
+        '/student_dashboard': (context) => StudentDashboard(),
+        '/teacher_dashboard': (context) => TeacherDashboard(),
       },
     );
   }
